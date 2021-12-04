@@ -1,0 +1,23 @@
+Algoritmo "Aluno Calcular media (aprovação,recuperação e reprovado)"
+
+Var
+
+Nota1, Nota2, media:REAL
+
+Inicio
+Escreva("Digite a Primeira Nota:  ")
+Leia (Nota1)
+Escreva ("Digite a Segunda Nota:  ")
+Leia (Nota2)
+Media<- (Nota1+Nota2)/2
+Se (Media>=7) entao
+   EscrevaL ("O aluno(a) foi APROVADO!")
+SeNão
+     Se (Media>=5) e (Media<7) então
+     EscrevaL ("Aluno(a) em RECUPERAÇÃO")
+Senão
+     EscrevaL ("Aluno(a) REPROVADO")
+     FimSe
+Fimse
+
+Fimalgoritmo
