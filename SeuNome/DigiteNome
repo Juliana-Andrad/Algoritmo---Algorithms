@@ -1,0 +1,16 @@
+Algoritmo "Digite seu nome"
+
+Var
+Nome:caractere
+Duvida:caractere
+
+Inicio
+Escreva ("Digite o seu nome(Enter your name): ")
+Leia (nome)
+EscrevaL ("Muito prazer ", Nome)
+Escreva ("Qual a sua duvida? utilize o campo:")
+Leia (duvida)
+EscrevaL ("Seu campo de pesquisa para =>  ", Duvida)
+Escreva ("Será avaliado")
+
+Fimalgoritmo
