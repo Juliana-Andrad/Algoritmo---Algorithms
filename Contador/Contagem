@@ -1,0 +1,17 @@
+Algoritmo "Contagem- Repetição 1"
+
+Var
+Valor, Contador: inteiro
+
+Inicio
+
+Contador <- 0
+Escreva ("Até quanto você deseja contar?")
+        Leia (Valor)
+Enquanto (contador <= Valor)faca
+Escreval (contador)
+Contador <- Contador +1)
+fimenquanto
+Escreval ("Terminei de contar")
+
+Fimalgoritmo
