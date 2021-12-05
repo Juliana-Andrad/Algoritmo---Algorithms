@@ -1,0 +1,32 @@
+Algoritmo "Detector pesado -repetição- rotina preparo"
+
+Var
+I:inteiro
+Nome, Pesado:caractere
+Peso, Maior:Real
+
+Procedimento Topo()
+Inicio
+Limpatela
+EscrevaL (" --------------------------")
+EscrevaL ("    DETECTOR DE PESADOS    ")
+EscrevaL ("---------------------------")
+EscrevaL ("Maior peso até agora:", Maior, "KG" )
+fimprocedimento
+Inicio
+   Topo ()
+   Para I <- 1 ate 5 faca
+     Escreva ("Digite o nome: ")
+     Leia(Nome)
+     Escreva ("Digite o peso de ", Nome, ": ")
+     Leia (Peso)
+     Se (Peso > Maior) então
+        Maior <- Peso
+        Pesado <- Nome
+    FimSe
+    Topo ()
+FimPara
+Topo ()
+EscrevaL("A pessoa mais pesada foi:  ", Pesado, " com ", Maior)
+
+Fimalgoritmo
