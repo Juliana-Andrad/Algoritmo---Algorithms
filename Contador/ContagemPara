@@ -1,12 +1,12 @@
 Algoritmo "Contador PARA em REPETIÇÃO"
 
 Var
-Cont: inteiro
+Contador: inteiro
 
 Inicio
 
-Para Cont <- 1 ate 10 faca
-     Escreval (Cont)
+Para Contador <- 1 ate 10 faca
+     Escreval (Contador)
 Fimpara
 
 Fimalgoritmo
