@@ -1,0 +1,19 @@
+Algoritmo "Analisador de strings"
+
+Var
+Name:Caractere
+Contador:Inteiro
+
+inicio
+Escreva ("Digite o seu nome: ")
+Leia (Name)
+Escreval("Total de letras de seu nome", Compr(Name))
+Escreval("Seu nome em maiusculo é =>  ", Maiusc (Name))
+Escreval("Seu nome em minusculo é =>  ", Minusc (Name))
+Escreval("A primeira letra do seu nome é ==> ", copia (Name,1,1))
+Escreval("O codigo da letra a é ==>", Asc ("A"))
+Para Contador <- compr(Name)ate 1 passo -1 faca
+     Escreva(copia(Maiusc(Name), Contador, 1))
+Fimpara
+
+Fimalgoritmo
