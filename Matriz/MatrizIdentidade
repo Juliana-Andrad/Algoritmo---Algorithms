@@ -1,0 +1,40 @@
+Algoritmo "MATRIZ- Matriz identidade 3°"
+
+Var
+m:Vetor [1..4, 1..4] de inteiro
+l, c, sDP, p2L, mai3C: inteiro
+
+Inicio
+sDP <-0
+p2L <- 1
+Para l <- 1 ate 4 faca
+     Para c <- 1 ate 4 faca
+     Escreva("Digite o valor da posição [", l, ", ", C, "]: ")
+     Leia (m[l, c])
+          Se(l = c)então
+               sDP <- sDP + M [L, C]
+          FimSe
+     fimPara
+FimPara
+
+Para l <- 1 ate 4 faca
+     Para c <- 1 ate 4 faca
+          Escreva(m[l,c]:4)
+     FimPara
+     EscrevaL()
+FimPara
+
+Para c <- 1 ate 4 faca
+     p2L <- p2L * M[2, C]
+FimPara
+       Para l <- 1 ate 4 faca
+            Se (m[l, 3] > mai3C) então
+            mai3C <- m[l, 3]
+            FimSe
+       FimPara
+
+Escreval("A soma dos valores da diagonal principal é ==> ", sDP)
+Escreval("O produto da segunda linha é ==> ", p2L)
+Escreval("O maior valor da terceira coluna é ==> ", mai3C)
+
+Fimalgoritmo
